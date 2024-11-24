@@ -1,7 +1,26 @@
 import Styles from "./button.module.scss";
 
-const Button = ({title}) => {
-    return <button className={Styles.button}>{title}</button>;
+
+/*
+Props:
+title: String
+kind: "pirmary"| "secundary"
+*/
+
+
+const Button = ({title, kind}) => {
+
+    const generationClassByKind = () => {
+        if(kind === "secundary") return Styles.secundary;
+
+        return Styles.primary;
+    } 
+
+    return (
+    <button className={`${Styles.button} ${generationClassByKind()}`}>
+        {title}
+    </button>
+    );
 };
 
 export default Button;

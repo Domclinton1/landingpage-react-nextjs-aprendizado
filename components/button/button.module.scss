@@ -1,7 +1,6 @@
-@import url("/styles/mixins/colors.scss");
+@import "/styles/mixins/colors.scss";
 
 .button {
-    background-color: green;
     color: white;
     border: none;
     padding: 15px 50px;
@@ -14,4 +13,13 @@
 .button:hover {
     letter-spacing: 0.5rem;
     color: gold;
+}
+
+.primary {
+    background-color: $green-color;
+}
+
+.secundary {
+  background-color: $white-color;
+  color: $black-color;
 }
