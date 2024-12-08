@@ -3,6 +3,7 @@
 
 .container {
     @include Padding;
+    padding-bottom: 200px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -32,7 +33,7 @@
 }
 
 .feature {
-    width: 500px;
+    width: 400px;
     padding: 32px 35px;
     background-color: $white-color;
     border-radius: 5px;
@@ -50,7 +51,5 @@
         width: auto;
         text-align: left;
     }
-    .icon {
-        
-    }
+   
 }
