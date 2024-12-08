@@ -6,4 +6,9 @@
   font-size: 30px;
   opacity: 0.8;
 }
-/*# sourceMappingURL=welcome.module.css.map */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 34px 180px;
+}/*# sourceMappingURL=welcome.module.css.map */

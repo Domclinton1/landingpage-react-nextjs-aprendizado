@@ -1,14 +1,16 @@
-@import url(/landingpage/styles/mixins/colors.scss);
-
+@import "/styles/mixins/colors.scss";
+@import "/styles/mixins/padding.scss" ;
 .container {
+    @include Padding;
     width: 100%;
-    background-color: #380158;
+    background-color: $purple-color;
     border-bottom: 0.5px solid #afafaf;
     display: flex;
-    color: #fff;
+    color: $white-color;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
+    padding-top: 34px;
+    padding-bottom: 34px;
     ul {
         display: flex;
         gap: 1.8rem;

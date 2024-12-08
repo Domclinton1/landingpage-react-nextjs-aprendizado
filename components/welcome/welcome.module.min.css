@@ -1,2 +1,2 @@
-.text h1{font-weight:bold;font-size:71px}.text p{font-size:30px;opacity:.8}
+.text h1{font-weight:bold;font-size:71px}.text p{font-size:30px;opacity:.8}.container{display:grid;grid-template-columns:repeat(2, 1fr);padding:34px 180px}
 /*# sourceMappingURL=welcome.module.min.css.map */
