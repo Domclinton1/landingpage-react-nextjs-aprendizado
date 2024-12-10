@@ -29,6 +29,7 @@ const Contato = () => {
 
                 <Button title="Enviar" kind="full" />
                 </form>
+                <p>Ao enviar esse formulário, você reconhece que leu e concorda com a nossa <strong>Politica de Privacidade</strong></p>
             </div>
         </div>
     )
