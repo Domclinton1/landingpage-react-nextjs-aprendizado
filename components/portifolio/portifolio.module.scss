@@ -23,24 +23,28 @@
         
     }
 }
-
-.features {
+.portifolio {
     @include Padding;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 68px;
+    align-items: center;
     
 }
-
-.feature {
+.service {
     width: 100%;
-    padding: 32px 35px 0;
+    padding: 32px;
     background-color: $white-color;
     border-radius: 5px;
-
-    h1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    
+   
+    h2 {
         font-weight: bold;
-        font-size: 30px;
+        font-size: 25px;
         color: $purple2-color;
         width: auto;
         text-align: left;
@@ -51,10 +55,4 @@
         width: auto;
         text-align: left;
     }
-   
-}
-.featureTitle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }

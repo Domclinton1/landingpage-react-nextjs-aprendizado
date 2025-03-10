@@ -1,0 +1,1 @@
+{"version":3,"sources":["footer.module.scss","../../styles/mixins/padding.scss","../../styles/mixins/colors.scss","footer.module.css"],"names":[],"mappings":"AAGA;ECFI,aAAA;EDIA,iBAAA;EACA,yBEJY;EFKZ,aAAA;EACA,qCAAA;EACA,kCAAA;AGFJ;;AHOA;EAEI,gBAAA;AGLJ;AHOI;EACI,eAAA;EACA,cEdM;ACSd;AHQI;EACI,eAAA;AGNR;AHQI;EACI,eAAA;AGNR;AHQI;EACI,eAAA;AGNR","file":"footer.module.css"}

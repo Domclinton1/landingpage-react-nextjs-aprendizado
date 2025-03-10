@@ -1,0 +1,34 @@
+@import "../../styles/mixins/padding.scss";
+@import "../../styles/mixins/colors.scss";
+
+.container {
+    @include Padding;
+    padding-top: 72px;
+    background-color: $purple3-color;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+
+
+.column {
+
+    margin-top: 2rem;
+
+    h1 {
+        font-size: 24px;
+        color: $green2-color;
+        
+    }
+    p {
+        font-size: 22px;
+    }
+    .title {
+        font-size: 29px;
+    }
+    &.columnPrincipal {
+        margin-top: 0px;
+        
+    }
+}

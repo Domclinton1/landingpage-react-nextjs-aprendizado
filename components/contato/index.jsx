@@ -1,14 +1,17 @@
+import Link from "next/link";
 import Styles from "./contato.module.scss";
 import Button from "../button";
 import Input from "../input";
 import Select from "../select";
+
+
 
 const Contato = () => {
     return (
         <div className={Styles.container}>
             <div className={Styles.texts}>
                 <span>ENTRE EM CONTATO</span>
-                <h1>Destaque sua empresa na internet e aumente seu resultado de vendas e performance</h1>
+                <h1>Destaque sua empresa na internet e aumente suas vendas!</h1>
                 <p>Precisa de um site, landing page ou e-commerce e até mesmo uma gestão de tráfego pago para aumentar as vendas da sua empresa?</p>
             </div>
             <div className={Styles.form}>
@@ -29,8 +32,12 @@ const Contato = () => {
 
                 <Button title="Enviar" kind="full" />
                 </form>
-                <p>Ao enviar esse formulário, você reconhece que leu e concorda com a nossa <strong>Politica de Privacidade</strong></p>
+                
+                <p className={Styles.footer}>Ao enviar esse formulário, você reconhece que leu e concorda com a nossa <Link href="/" >
+                <strong>Politica de Privacidade</strong></Link></p>
+            
             </div>
+            
         </div>
     )
 }
